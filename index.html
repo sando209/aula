@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Turma">
+        <h3>CRUD 2024091</h3>
+    </div>
+
+    <div class="Registro">
+        <h2>Registro de Empregados</h2>
+    </div>
+    <div class="Adicionar">
+        <butto onclick="nossoBotao()">Adicionar Novo Empregado</button>
+    <script>
+        function nossoBotao(){
+            alert("Você gostaria de Adicionar um Novo Empregado")
+        }
+    </script>
+
+
+
+
+    </div>
+    <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Rakesh</td>
+            <td>2345</td>
+            <td>IT</td>
+            <td class="edit-buttons">
+              <button class="btn-edit" onclick="alert('Você que edit a Rakesh')">Edit</button>
+              <button2 class="btn-delete" onclick="alert('Você deu Delete para Rakesh')">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Priyanka</td>
+            <td>2500</td>
+            <td>HR</td>
+            <td class="edit-buttons">
+              <button class="btn-edit" onclick="alert('Você que edit a Priyanka')">Edit</button>
+              <button2 class="btn-delete" onclick="alert('Você deu Delete para Priyanka')">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Anurag</td>
+            <td>4500</td>
+            <td>Sales</td>
+            <td class="edit-buttons">
+              <button class="btn-edit" onclick="alert('Você que edit a Anurag')">Edit</button>
+              <button2 class="btn-delete" onclick="alert('Você deu Delete para Anurag')">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+
+</body>
+</html>
